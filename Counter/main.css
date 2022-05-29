@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Macondo', cursive;
+}
+body{
+    background-color: #251D3A;
+}
+
+.main-container{
+    height: 100vh;
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+}
+
+.count{
+    font-size: 4rem;
+    color: #1F6F8B;
+}
+
+.result{
+    font-size: 5rem;
+    color: #000;
+}
+
+.buttons{
+    display: flex;
+    gap: 0.8rem;
+}
+
+
+.button{
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+
+}
+
+.button:hover{
+    background-color: #251D3A;
+    color: azure;
+}
